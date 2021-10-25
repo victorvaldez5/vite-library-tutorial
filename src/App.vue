@@ -1,7 +1,19 @@
 <script setup>
-  import { VButton } from './components/VButton';
+  import { VButton } from './components/';
 </script>
 
 <template>
-  <VButton>My Button</VButton>
+  <VButton
+    class="
+      py-2
+      px-4
+      font-semibold
+      rounded-lg
+      shadow-md
+      text-white
+      bg-green-500
+      hover:bg-green-700
+    "
+    >My Button</VButton
+  >
 </template>
